@@ -1,3 +1,13 @@
 h1{
     color: brown;
 }
+.image{
+    z-index: -1;
+    position:relative;
+    top:30%;
+}
+.class2{
+    z-index: 1;
+    position:relative;
+    top:30%;
+}
