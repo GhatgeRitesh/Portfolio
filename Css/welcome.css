@@ -230,7 +230,7 @@ body::-webkit-scrollbar {
 .proitem{
     position: relative;
     width: 95%;
-    height: 25vh;
+    height: 30vh;
     margin: auto;
     /* border: 1px solid red; */
     border-bottom: 1px solid grey;
@@ -240,6 +240,7 @@ body::-webkit-scrollbar {
     justify-content: space-evenly;
     justify-items: center;
     row-gap:15%;
+    overflow: hidden;
 }
 .proitem:hover{
     box-shadow: 0px 14px 14px 0px rgba(62, 62, 62, 0.2);
@@ -323,4 +324,99 @@ iframe {
     width: 25%;
     height: 20%;
     border: 1px solid #ccc;
+}
+.Education{
+    position:relative;
+    top: 50vh;
+    background-image:url("../Images/ed-back.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* border: 1px solid red; */
+    border-radius: 1vh;
+    width: 90%;
+    /* overflow-x: hidden; */
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.coursework{
+    position:relative;
+    /* border-top: 1px solid rgb(23, 23, 23); */
+    border-bottom: 1px solid rgb(23, 23, 23);
+    width: 90%;
+    height: 100%;
+    overflow: scroll;
+    margin:auto;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    row-gap: 10%;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.coursework::-webkit-scrollbar {
+    width: 0px; /* Width of the scrollbar */
+}
+.coursework a{
+    position: relative;
+    margin: auto;
+    width: 75%;
+    color: black;
+    text-decoration: none;
+}
+.coursework a:hover{
+    box-shadow: 0px 0px 12px 12px rgba(77, 241, 1, 0.2);
+}
+.courseitems{
+    position: relative;
+    /* border: 1px solid green; */
+    background-color: rgba(140, 164, 158, 0.3);
+    border-bottom: 1px solid grey;
+    height: 24vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    column-gap: 2%;
+}
+.courseimage{
+    position: relative;
+    margin: auto;
+    margin-left: 1%;
+    /* border: 1px solid yellow; */
+    width: 30%;
+    height: 50%;
+}
+.courseDescription{
+    /* border: 1px solid violet; */
+    position: relative;
+    padding: 1%;
+    margin: auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+}
+#clgName{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.03rem;
+}
+#date{
+    font-size: 1rem;
+    position: relative;
+    margin-left:0%;
+    /* border: 1px solid orange; */
+    width: 40%;
+    font: bolder;
+}
+#head{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    font-size:1.1rem ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
