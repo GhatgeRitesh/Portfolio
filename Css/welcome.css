@@ -422,3 +422,292 @@ iframe {
     font-size:1.1rem ;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.link{
+    display:none;
+}
+.image1{
+    display:none;
+}
+.mobresume{
+    display: none ;
+}
+.mobskills{
+    display: none;
+}
+.m-head{
+    display: none;
+}
+.m-head2{
+    display: none;
+}
+.m-ex{
+    display: none;
+}
+@media (max-width:398px) {
+    *{
+         width: 100%;
+         height: 100%;
+         overflow-x:hidden ;
+         margin: auto;
+    }
+    .head{
+        display:none;
+    }
+    .sidebar{
+        display:none ;
+    }
+    .link{
+        position: relative;
+        z-index: -1;
+        width: 40%;
+        margin-left:57%;
+        height: 30%;
+        display: block;
+        /* border: 1px solid red; */
+        overflow: visible;
+        z-index: 1;
+        /* background-color:bisque; */
+    }
+    .nav-links {
+        position: relative;
+        margin-left: 0%;
+        list-style: none;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: right;
+        width: 80%;
+        height: auto;
+    }
+    
+    .nav-links li {
+        position: relative;
+        margin: auto;
+        padding: 2%;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        margin-right:-2% ;
+        /* border-bottom: 1px solid #444; */
+    }
+    
+    .nav-links li a {
+        text-decoration: none;
+        color: #3a3a3a;
+        font-size:1rem ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    
+    .hamburger {
+        position: relative;
+        margin: auto;
+        margin-right: 0%;
+        top: 4%;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5%;
+        height: 20px;
+        width: 40px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
+    .bar {
+        height: 3px;
+        width: 100%;
+        background: #050505;
+        border-radius: 10px;
+    }
+    .nav-active {
+        display: flex !important;
+        position: relative;
+        padding: 0%;
+        margin: auto;
+        color: #050505;
+        /* border: 1px solid green; */
+        background-color: rgb(226, 226, 226);
+    }
+
+
+
+    .subhead{
+      position: relative;
+      top: -10vh;
+    }
+
+    .image1{
+        display: flex;
+        position: relative;
+        top: -15%;
+        margin: auto;
+        /* border: 1px solid red; */
+        z-index: -1;
+        width: 150px;
+        height: 150px;
+        border-radius: 50% ;
+        width: 70vw;
+        height: 34vh;
+    }
+    .image1 img{
+        object-fit:cover;
+    }
+    #tag{
+        font-size: 3rem;
+    }
+    #tag1{
+        position: relative;
+        /* border: 1px solid red; */
+        top: 0vh;
+        height: auto;
+        font-size: 1.2rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font: bold;
+    }
+    .body{
+        display: none;
+    }
+    .mobresume{
+        display: flex;
+        position: relative;
+        top: -8vh;
+        margin: auto;
+        /* border: 1px solid red; */
+        border-radius: 0.2vh;
+        height: 8vh;
+        width: 70%;  
+    }
+    .mobresume button{
+        background-color: #fb592ccd;
+        border: none;
+        padding: -10%;
+        font-size: 1.3rem;
+        font-family:'Times New Roman', Times, serif;
+        color: white;  
+    }
+    .m-head{
+        position: relative;
+        top: -2vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: auto;
+        border-bottom: 2px solid rgb(255, 89, 0);
+        font-size: 2rem;
+    }
+    .mobskills{
+        position: relative;
+        margin: auto;
+        /* border: 1px solid red; */
+        width: 98%;
+        height:100vh;
+        display: grid;
+        grid-template-columns: repeat(3,5fr);
+        row-gap:2%;
+        column-gap: 2%;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+    }
+    .mobskills::-webkit-scrollbar {
+        width: 0px; /* Width of the scrollbar */
+    }
+    .skillitem{
+        position: relative;
+        margin: auto;
+        width: 90%;
+        /* border: 1px solid rgb(9, 73, 0); */
+        border-bottom:1px solid #3a3a3a;
+        border-radius: 1vh ;
+        height: 18vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #050505;
+         box-shadow: 0px 0px 4px 2px rgba(68, 68, 68, 0.7);
+    }
+    .skillitem:hover{
+        width: 92% ;
+        box-shadow: 0px 0px 4px 2px rgba(117, 254, 48, 0.929);
+    }
+
+    .m-skill-image{
+        position: relative;
+         width: 100%;
+         height: 50%;
+         /* border: 1px solid green; */
+    } 
+    .m-skill-image::-webkit-scrollbar {
+        width: 0px; /* Width of the scrollbar */
+    }
+    .m-skill-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-fit: scale-down;
+    }
+    #m-skill-name{
+        position: relative;
+        /* border: 1px solid red; */
+        margin: auto;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+   .m-head2{
+    position: relative;
+    top: 2vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    border-bottom: 2px solid rgb(255, 89, 0);
+    font-size: 2rem;
+   }
+   .m-ex{
+    position: relative;
+    /* border: 1px solid red; */
+    top:4vh;
+    width: 98%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -10%;
+    flex-direction: column;
+   }
+   .m-ex-image{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+   }
+   .m-ex-image img{
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+   }
+   .m-ex-des{
+    position: relative;
+    top: 2%;
+    /* border: 1px solid green; */
+    width: 90%;
+    height: 55%;
+    text-align:justify;
+   }
+   #p-Name{
+    font-size: 1.3rem;
+    height: auto;
+    text-align: center;
+   }
+}
