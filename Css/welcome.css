@@ -443,7 +443,7 @@ iframe {
 .m-ex{
     display: none;
 }
-@media (max-width:398px) {
+@media (max-width:400px) {
     *{
          width: 100%;
          height: 100%;
