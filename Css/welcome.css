@@ -735,7 +735,7 @@ iframe {
    .m-projects{
       position:relative;
       top: 12vh;
-      border: 1px solid red;
+      /* border: 1px solid red; */
       width: 98%;
       height: auto;
       margin: auto;
@@ -759,8 +759,8 @@ iframe {
    }
    #m-p-image{
       position: relative;
-      width: 80%;
-      height:20vh;
+      width: 100%;
+      height:30vh;
       /* border: 1px solid orange; */
       margin: auto;
    }
