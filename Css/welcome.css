@@ -455,6 +455,9 @@ iframe {
 .courses{
     display:none;
 }
+.m-sidebar{
+    display: none;
+}
 @media (max-width:398px) {
     *{
          width: 100%;
@@ -609,6 +612,19 @@ iframe {
         height: auto;
         border-bottom: 2px solid rgb(255, 89, 0);
         font-size: 2rem;
+    }
+    .m-sidebar{
+        display: flex;
+        position: relative;
+        top: -98.5vh;
+        margin-left: 4%;
+        /* border: 1px solid red; */
+        width: 45%;
+        height: auto;
+    }
+    .m-sidebar img{
+        width: auto;
+        height: 5vh;
     }
     .mobskills{
         position: relative;
