@@ -473,6 +473,7 @@ iframe {
     }
     .link{
         position: relative;
+        top: -5.8%;
         z-index: -1;
         width: 40%;
         margin-left:57%;
@@ -548,13 +549,13 @@ iframe {
 
     .subhead{
       position: relative;
-      top: -10vh;
+      top: -15vh;
     }
 
     .image1{
         display: flex;
         position: relative;
-        top: -17%;
+        top: -22.5%;
         margin: auto;
         /* border: 1px solid red; */
         z-index: -1;
@@ -586,7 +587,7 @@ iframe {
     .mobresume{
         display: flex;
         position: relative;
-        top: -8vh;
+        top: -13vh;
         margin: auto;
         /* border: 1px solid red; */
         border-radius: 0.2vh;
@@ -616,7 +617,7 @@ iframe {
     .m-sidebar{
         display: flex;
         position: relative;
-        top: -98.5vh;
+        top: 1vh;
         margin-left: 4%;
         /* border: 1px solid red; */
         width: 45%;
