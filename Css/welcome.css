@@ -446,8 +446,14 @@ iframe {
 .m-head3{
     display: none;
 }
+.m-head4{
+    display: none;
+}
 .m-projects{
     display: none;
+}
+.courses{
+    display:none;
 }
 @media (max-width:398px) {
     *{
@@ -736,6 +742,7 @@ iframe {
       position:relative;
       top: 12vh;
       /* border: 1px solid red; */
+      border-bottom: 1px solid orange;
       width: 98%;
       height: auto;
       margin: auto;
@@ -805,5 +812,77 @@ iframe {
     border: none;
     font-size: 1rem;
     color: white;
+   } 
+   .m-head4{
+    position: relative;
+    top: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    border-bottom: 2px solid rgb(255, 89, 0);
+    font-size: 2rem;
+    text-align: center;
+   }
+   .courses{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 17vh;
+    width: 90%;
+    height: 150vh;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid orange;
+    margin-bottom: 5%;
+   }
+   .m-c-item{
+    position: relative;
+    top: 0vh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+    padding-block:2% ;
+    width: 98%;
+    height: 17vh;
+    border: 1px solid rgb(255, 173, 31);
+    border-radius: 1vh;
+   }
+   #m-c-image{
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    /* border: 0px solid red; */
+   }
+   #m-c-img image{
+    width: 90%;
+    object-fit: scale-down;
+   }
+   .m-c-des{
+    position: relative;
+    justify-content: center;
+    align-items: center ;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+   }
+   #c-name{
+    position: relative;
+    height: auto;
+    /* border: 1px solid pink; */
+    font-size: 1.2rem;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+   }
+   #c-name a{
+    color: rgb(0, 0, 0);
+    /* text-decoration: none; */
+   }
+   #c-c-name{
+    position: relative;
+    height: auto;
    }
 }
