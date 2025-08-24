@@ -418,6 +418,7 @@ html {
 }
 
 /* Responsive */
+/* This is Mobile View for Intro */
 @media (max-width: 768px) {
     .resumeButton{
       /* border: 1px solid red; */
